@@ -5,10 +5,11 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    max-height: 350px;
+    background: rgba(0, 179, 234, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header h1 {
