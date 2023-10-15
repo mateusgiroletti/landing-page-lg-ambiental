@@ -37,7 +37,7 @@ button {
     cursor: pointer;
 }
 
-header {
+#main-header {
     width: 100%;
     height: 15vh;
     display: flex;
@@ -73,12 +73,14 @@ header nav ul li a:hover {
     color: var(--main-hover-color);
 }
 
-
 #main-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 100vh;
 }
 
 #presentation{
@@ -88,6 +90,10 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: space-between;
     border: 1px solid red;
+}
+
+#presentation img{
+    border: 1px solid yellow;
 }
 
 #presentation-title{
@@ -106,15 +112,29 @@ header nav ul li a:hover {
     justify-content: space-between;
 }
 
+#about-us img{
+    margin-left: 200px;
+}
+
 #about-us-content{
-    border: 1px solid blue;
     width: 20vw;
+    margin-right: 5vw;
 }
 
 #about-us-content header{
     color: var(--secondary-color);
     font-size: 1.7rem;
-    border: 1px solid red;
+    margin-bottom: 2rem;
+}
+
+#about-us-content header h1{
+    font-weight: normal;
+}
+
+#about-us-content p{
+    color: var(--main-color);
+    line-height: 2;
+    text-align: justify;
 }
 
 /* .main-container {
