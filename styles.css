@@ -79,7 +79,6 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    max-width: 1000px;
     min-height: 100vh;
 }
 
@@ -110,6 +109,7 @@ header nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid violet;
 }
 
 #about-us img{
@@ -135,6 +135,24 @@ header nav ul li a:hover {
     color: var(--main-color);
     line-height: 2;
     text-align: justify;
+}
+
+#mission{
+    height: 80vh;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#mission header{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+#mission header h1{
+    font-size: 2rem;
+    font-weight: normal;
+    color: var(--secondary-color);
 }
 
 /* .main-container {
