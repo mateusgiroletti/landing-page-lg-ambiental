@@ -73,7 +73,7 @@ header nav ul li a:hover {
     color: var(--main-hover-color);
 }
 
-#main-content{
+#main-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +82,7 @@ header nav ul li a:hover {
     min-height: 100vh;
 }
 
-#presentation{
+#presentation {
     height: 80vh;
     width: 80vw;
     display: flex;
@@ -91,11 +91,11 @@ header nav ul li a:hover {
     border: 1px solid red;
 }
 
-#presentation img{
+#presentation img {
     border: 1px solid yellow;
 }
 
-#presentation-title{
+#presentation-title {
     margin-left: 200px;
     width: 30vw;
     color: var(--secondary-color);
@@ -103,7 +103,7 @@ header nav ul li a:hover {
     border: 1px solid blue;
 }
 
-#about-us{
+#about-us {
     height: 80vh;
     width: 80vw;
     display: flex;
@@ -112,89 +112,90 @@ header nav ul li a:hover {
     border: 1px solid violet;
 }
 
-#about-us img{
+#about-us img {
     margin-left: 200px;
 }
 
-#about-us-content{
+#about-us-content {
     width: 20vw;
     margin-right: 5vw;
 }
 
-#about-us-content header{
+#about-us-content header {
     color: var(--secondary-color);
     font-size: 1.7rem;
     margin-bottom: 2rem;
 }
 
-#about-us-content header h1{
+#about-us-content header h1 {
     font-weight: normal;
 }
 
-#about-us-content p{
+#about-us-content p {
     color: var(--main-color);
     line-height: 2;
     text-align: justify;
 }
 
-#mission{
+#mission {
     height: 80vh;
-    width: 100%;
+    width: 80vw;
     border: 1px solid black;
 }
 
-#mission header{
+#mission header {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 15%;
     border: 1px solid red;
 }
 
-#mission header h1{
+#mission header h1 {
     font-size: 2rem;
     font-weight: normal;
     color: var(--secondary-color);
 }
 
-/* .main-container {
+#mission-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 85%;
+}
+
+#mission-content article {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    border: 1px solid red;
-
 }
 
-.main-container .history {
-    height: 30vh;
-    width: 60vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid blue;
-    font-size: 1.5rem;
-} */
-
-
-
-/* section {
-    padding: 40px;
+#mission-content img {
+    margin: 5rem 0 2rem;
+    height: 20rem;
+    width: 20rem;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+#mission-content p {
+    color: var(--secondary-color);
+    line-height: 2;
     text-align: center;
-    padding: 10px 0;
+    width: 20rem;
 }
 
-#about {
-    background-color: #f2f2f2;
+
+
+
+#mission-regulation {
+    background-color: #F7FDF3;
 }
 
-#services {
-    background-color: #e0e0e0;
+#mission-it-services {
+    background-color: #ECF8E5;
 }
 
-#contact {
-    background-color: #f2f2f2;
-} */
+#mission-development {
+    background-color: #CFE4C3;
+}
