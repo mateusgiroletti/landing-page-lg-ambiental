@@ -185,9 +185,6 @@ header nav ul li a:hover {
     width: 20rem;
 }
 
-
-
-
 #mission-regulation {
     background-color: #F7FDF3;
 }
@@ -198,4 +195,24 @@ header nav ul li a:hover {
 
 #mission-development {
     background-color: #CFE4C3;
+}
+
+#values {
+    height: 80vh;
+    width: 80vw;
+    border: 1px solid black;
+}
+
+#values header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    border: 1px solid red;
+}
+
+#values header h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: var(--secondary-color);
 }
