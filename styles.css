@@ -109,24 +109,25 @@ header nav ul li a:hover {
 }
 
 #about-us-content {
-    width: 20vw;
+    width: 30vw;
     margin-right: 5vw;
 }
 
 #about-us-content header {
     color: var(--secondary-color);
-    font-size: 1.7rem;
     margin-bottom: 2rem;
 }
 
 #about-us-content header h1 {
     font-weight: normal;
+    font-size: 2.5rem;
 }
 
 #about-us-content p {
     color: var(--main-color);
     line-height: 2;
     text-align: justify;
+    font-size: 1.5rem;
 }
 
 #mission {
