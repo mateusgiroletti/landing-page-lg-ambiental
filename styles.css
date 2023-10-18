@@ -217,11 +217,13 @@ header nav ul li a:hover {
 #values #values-content section{
     display: flex;
     align-items: center;
+
 }
 
 #values #values-content section .values-content-title{
-    width: 20vw;
+    width: 15vw;
     color: var(--secondary-color);
+    margin-right: 15rem;
 }
 
 #values #values-content section .values-content-description{
