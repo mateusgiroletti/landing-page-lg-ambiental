@@ -235,3 +235,38 @@ header nav ul li a:hover {
     color: var(--main-color);
     font-size: 1.8rem;
 }
+
+#services {
+    height: 80vh;
+    width: 80vw;
+}
+
+#services header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+
+#services header h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: var(--secondary-color);
+}
+
+#services-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    height: 85%;
+}
+
+#services-content article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    text-align: center;
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
