@@ -4,16 +4,13 @@
     outline: 0;
     box-sizing: border-box;
 
-    --secondary-color: #40916C;
-    --main-hover-color: #2D6A4F;
-
 
     /* NEWS COLORS */
     --background-color: #D8F3DC;
     --title-color: #40916c;
+    --title-color-color: #2D6A4F;
+
     --text-color: #74C69D;
-
-
 }
 
 *:focus {
@@ -50,7 +47,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #CFE4C3;
 }
 
 #main-header nav {
@@ -132,7 +128,7 @@ button {
 }
 
 #about-us-content header {
-    color: var(--secondary-color);
+    color: var(--title-color);
     margin-bottom: 2rem;
 }
 
@@ -267,7 +263,7 @@ button {
 #services header h1 {
     font-size: 2rem;
     font-weight: normal;
-    color: var(--secondary-color);
+    color: var(--title-color);
 }
 
 #services-content {
@@ -305,7 +301,7 @@ button {
 #contact header h1 {
     font-size: 2rem;
     font-weight: normal;
-    color: var(--secondary-color);
+    color: var(--title-color);
 }
 
 #contact-content {
