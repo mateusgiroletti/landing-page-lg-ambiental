@@ -96,12 +96,14 @@ button {
 #presentation-title {
     margin-left: 200px;
     width: 30vw;
-    color: var(--secondary-color);
+}
+
+#presentation-title h1{
+    color: #40916c;
     font-size: 4rem;
 }
 
 #main-logo img{
-    height: 500px;
     width: 700px;
 }
 
