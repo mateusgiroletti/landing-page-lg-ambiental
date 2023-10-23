@@ -10,18 +10,14 @@
         width: 100%;
     }
 
-    .section-content {
-        height: 100%;
-        width: 100%;
-    }
-
     #presentation {
         width: 100vw;
         flex-direction: column;
     }
 
     #presentation-title {
-        width: 80vw;
+        width: 100vw;
+        text-align: center;
     }
 
     #presentation #main-logo img {
@@ -53,10 +49,28 @@
         display: flex;
         justify-content: center;
     }
+    
+    #mission{
+        height: 100%;
+    }
 
     #mission-content {
         flex-direction: column;
+        justify-content: space-between;
     }
+
+    #values #values-content section {
+        width: 100vw;
+    }
+
+    #values #values-content section .values-content-title {
+        margin-right: 0;
+    }
+
+    #values #values-content section .values-content-description {
+        max-width: 60vw;
+    }
+
 
     #contact-content {
         flex-direction: column;
