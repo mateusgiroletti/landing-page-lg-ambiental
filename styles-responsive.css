@@ -1,0 +1,65 @@
+/* Estilos para telas menores, como tablets */
+@media (max-width: 768px) {
+    #main-header nav ul li {
+        margin-right: 1.5rem;
+        /* Reduza a margem entre os itens do menu */
+    }
+
+    #main-content {
+        margin-top: 10vh;
+        width: 100%;
+    }
+
+    .section-content {
+        height: 100%;
+        width: 100%;
+    }
+
+    #presentation {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    #presentation-title {
+        width: 80vw;
+    }
+
+    #presentation #main-logo img {
+        width: 700px;
+    }
+
+    #presentation-title {
+        margin-left: 0;
+    }
+
+    #presentation #main-logo img {
+        width: 100%;
+    }
+
+    #about-us {
+        flex-direction: column;
+    }
+
+    #about-us article img {
+        margin-left: 0;
+    }
+
+    #about-us-content {
+        margin-top: 2rem;
+        max-width: 80vw;
+    }
+
+    #about-us-content header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #mission-content {
+        flex-direction: column;
+    }
+
+    #contact-content {
+        flex-direction: column;
+    }
+
+}

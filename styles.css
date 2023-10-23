@@ -1,16 +1,16 @@
+:root {
+    /* NEWS COLORS */
+    --background-color: #D8F3DC;
+    --title-color: #40916c;
+    --title-color-color: #2D6A4F;
+    --text-color: #74C69D;
+}
+
 * {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-
-
-    /* NEWS COLORS */
-    --background-color: #D8F3DC;
-    --title-color: #40916c;
-    --title-color-color: #2D6A4F;
-
-    --text-color: #74C69D;
 }
 
 *:focus {
@@ -185,7 +185,7 @@ button {
 }
 
 #mission-content article p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #52b788;
     line-height: 1.8;
     text-align: center;
@@ -315,7 +315,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #contact-content section {
