@@ -85,6 +85,7 @@ button {
 .section-content {
     height: 100vh;
     width: 100%;
+    border: 1px solid red;
 }
 
 #main-content {
@@ -103,18 +104,18 @@ button {
 }
 
 #presentation-title {
-    margin-left: 200px;
-    width: 30vw;
+    width: 40vw;
 }
 
-#presentation-title h1{
+#presentation-title h1 {
     font-size: 4rem;
     font-weight: normal;
     color: var(--title-color);
 }
 
-#presentation #main-logo img{
-    width: 700px;
+#presentation #main-logo img {
+    margin-right: 2rem;
+    width: 500px;
 }
 
 #about-us {
@@ -205,7 +206,7 @@ button {
     background-color: #CFE4C3;
 }
 
-#values{
+#values {
     background-color: #F7FDF3;
 }
 
@@ -242,7 +243,7 @@ button {
     margin-right: 10rem;
 }
 
-#values #values-content section .values-content-title h2{ 
+#values #values-content section .values-content-title h2 {
     font-weight: normal;
     color: var(--title-color);
 }
@@ -256,7 +257,7 @@ button {
     font-size: 1.6rem;
 }
 
-#services{
+#services {
     background-color: #ECF8E5;
 }
 

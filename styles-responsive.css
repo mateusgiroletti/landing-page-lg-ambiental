@@ -1,3 +1,56 @@
+@media (max-width: 1024px) {
+    #main-content {
+        margin-top: 10vh;
+        width: 100%;
+    }
+
+    #presentation {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    #presentation-title {
+        width: 80vw;
+        text-align: center;
+    }
+
+    #presentation #main-logo img {
+        width: 100%;
+    }
+
+    #about-us {
+        flex-direction: column;
+    }
+
+    #about-us article img {
+        margin-left: 0;
+    }
+
+    #about-us-content {
+        margin-top: 2rem;
+        max-width: 80vw;
+    }
+
+    #about-us-content header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #mission{
+        height: 100%;
+    }
+
+    #mission header{
+        height: 8vh;
+    }
+
+    #mission-content {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+
 /* Estilos para telas menores, como tablets */
 @media (max-width: 768px) {
     #main-header nav ul li {
@@ -20,16 +73,13 @@
         text-align: center;
     }
 
-    #presentation #main-logo img {
-        width: 700px;
-    }
-
     #presentation-title {
         margin-left: 0;
     }
 
     #presentation #main-logo img {
-        width: 100%;
+        margin: 0;
+        width: 500px;
     }
 
     #about-us {
@@ -69,5 +119,26 @@
 
     #values #values-content section .values-content-description {
         max-width: 60vw;
+    }
+
+    #services-content {
+        display: grid;
+        grid-template-columns: auto auto;
+        place-items: center;
+        height: 85%;
+    }
+
+    #contact {
+        height: 50vh;
+    }
+
+    #contact-content {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact-content section {
+        margin: 1.5rem 1.5rem;
     }
 }
