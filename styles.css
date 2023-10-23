@@ -73,7 +73,7 @@ button {
 }
 
 #main-header nav ul li a {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--title-color);
 }
@@ -292,7 +292,7 @@ button {
 }
 
 #contact {
-    height: 50vh;
+    height: 30vh;
     width: 100%;
     background-color: #CFE4C3;
 }
@@ -302,7 +302,6 @@ button {
     justify-content: center;
     align-items: center;
     height: 20%;
-
 }
 
 #contact header h1 {
@@ -319,8 +318,7 @@ button {
 }
 
 #contact-content section {
-    margin: 0 5rem;
-    height: 20rem;
+    margin: 3rem 3rem;
     width: 30rem;
     display: flex;
     flex-direction: column;
@@ -334,7 +332,7 @@ button {
 }
 
 #contact-content section span {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: normal;
     text-align: center;
     color: var(--title-color);

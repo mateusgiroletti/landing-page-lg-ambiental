@@ -70,10 +70,4 @@
     #values #values-content section .values-content-description {
         max-width: 60vw;
     }
-
-
-    #contact-content {
-        flex-direction: column;
-    }
-
 }
