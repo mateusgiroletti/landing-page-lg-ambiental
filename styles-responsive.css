@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     #main-content {
         margin-top: 10vh;
         width: 100%;
@@ -12,10 +12,6 @@
     #presentation-title {
         width: 80vw;
         text-align: center;
-    }
-
-    #presentation #main-logo img {
-        width: 100%;
     }
 
     #about-us {
@@ -51,11 +47,9 @@
 
 }
 
-/* Estilos para telas menores, como tablets */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #main-header nav ul li {
-        margin-right: 1.5rem;
-        /* Reduza a margem entre os itens do menu */
+        margin-right: 1rem;
     }
 
     #main-content {
@@ -79,7 +73,6 @@
 
     #presentation #main-logo img {
         margin: 0;
-        width: 500px;
     }
 
     #about-us {
