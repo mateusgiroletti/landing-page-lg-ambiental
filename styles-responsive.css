@@ -32,11 +32,11 @@
         justify-content: center;
     }
 
-    #mission{
+    #mission {
         height: 100%;
     }
 
-    #mission header{
+    #mission header {
         height: 8vh;
     }
 
@@ -48,8 +48,23 @@
 }
 
 @media screen and (max-width: 768px) {
-    #main-header nav ul li {
-        margin-right: 1rem;
+    #main-header nav{
+        display: none;
+    }
+
+    .menu-responsive{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .menu-icon {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-icon .item {
+        margin-left: auto;
     }
 
     #main-content {
@@ -60,6 +75,7 @@
     #presentation {
         width: 100vw;
         flex-direction: column;
+        justify-content: center;
     }
 
     #presentation-title {
@@ -72,7 +88,7 @@
     }
 
     #presentation #main-logo img {
-        margin: 0;
+        display: none;
     }
 
     #about-us {
@@ -92,8 +108,8 @@
         display: flex;
         justify-content: center;
     }
-    
-    #mission{
+
+    #mission {
         height: 100%;
     }
 

@@ -41,6 +41,14 @@ button {
     cursor: pointer;
 }
 
+.menu-icon {
+    display: none;
+}
+
+.menu-responsive{
+    display: none;
+}
+
 #main-header {
     position: fixed;
     top: 0;
