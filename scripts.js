@@ -13,13 +13,20 @@ window.addEventListener("scroll", () => {
 });
 
 document.addEventListener("DOMContentLoaded", function (event) {
-    document.querySelector('.icon-menu').addEventListener('click', function () {
-        const menuContainer = document.querySelector('.menu-responsive');
-        menuContainer.style.display = menuContainer.style.visibility === 'flex' ? 'none' : 'flex';
+    const iconMenu = document.querySelector('.icon-menu');
+    const menuContainer = document.querySelector('.menu-responsive');
+    const button = document.querySelector(".hamburger-toggle");
+
+    iconMenu.addEventListener('click', function () {
+        menuContainer.classList.toggle('active'); 
+        button.classList.toggle("toggled");
     });
 
-    const button = document.querySelector(".hamburger-toggle");
-    button.addEventListener("click", function () {
-        button.classList.toggle("toggled")
+    window.addEventListener("scroll", function () {
+        if (menuContainer.classList.contains('active')) {
+            // Fechar o menu
+            menuContainer.classList.toggle('active'); 
+            button.classList.toggle("toggled");
+        }
     });
 });
