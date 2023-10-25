@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     window.addEventListener("scroll", function () {
         if (menuContainer.classList.contains('active')) {
-            // Fechar o menu
             menuContainer.classList.toggle('active'); 
             button.classList.toggle("toggled");
         }
