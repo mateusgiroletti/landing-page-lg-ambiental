@@ -13,7 +13,7 @@ window.addEventListener("scroll", () => {
 });
 
 document.addEventListener("DOMContentLoaded", function (event) {
-    document.querySelector('.menu-icon').addEventListener('click', function () {
+    document.querySelector('.icon-menu').addEventListener('click', function () {
         const menuContainer = document.querySelector('.menu-responsive');
         menuContainer.style.display = menuContainer.style.display === 'flex' ? 'none' : 'flex';
     });

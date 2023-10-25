@@ -48,24 +48,53 @@
 }
 
 @media screen and (max-width: 768px) {
-    #main-header nav{
+    #main-header .main-menu {
         display: none;
     }
 
-    .menu-responsive{
-        display: flex;
-        flex-direction: column;
-    }
-   
-    .menu-icon {
+    .menu-icon-responsive {
         width: 100vw;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
-    .menu-icon .item {
-        margin-left: auto;
+    .menu-icon-responsive .icon-menu {
+        position: fixed;
+        right: 0;
     }
+
+    .menu-responsive {
+        position: fixed;
+        display: flex;
+        top: 10vh;
+        width: 50vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-responsive ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-responsive ul li {
+        display: flex;
+        margin: 1rem;
+    }
+
+    .menu-responsive ul li a {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: var(--title-color);
+    }
+
+    .menu-responsive ul li a:hover {
+        color: #52b788;
+    }
+
 
     #main-content {
         margin-top: 10vh;
