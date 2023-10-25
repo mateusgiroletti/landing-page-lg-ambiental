@@ -72,6 +72,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        transition: visibility 1s ease-in;
     }
 
     .menu-responsive ul {

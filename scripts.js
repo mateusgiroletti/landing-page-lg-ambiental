@@ -15,7 +15,11 @@ window.addEventListener("scroll", () => {
 document.addEventListener("DOMContentLoaded", function (event) {
     document.querySelector('.icon-menu').addEventListener('click', function () {
         const menuContainer = document.querySelector('.menu-responsive');
-        menuContainer.style.display = menuContainer.style.display === 'flex' ? 'none' : 'flex';
+        menuContainer.style.display = menuContainer.style.visibility === 'flex' ? 'none' : 'flex';
     });
 
+    const button = document.querySelector(".hamburger-toggle");
+    button.addEventListener("click", function () {
+        button.classList.toggle("toggled")
+    });
 });
