@@ -68,7 +68,7 @@
         position: fixed;
         display: flex;
         top: 10vh;
-        width: 50vw;
+        width: 100vw;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -89,7 +89,10 @@
 
     .menu-responsive ul li {
         display: flex;
+        align-items: center;
+        justify-content: center;
         margin: 1rem;
+        width: 100vw;
     }
 
     .menu-responsive ul li a {
@@ -173,7 +176,7 @@
     }
 
     #contact {
-        height: 50vh;
+        height: auto;
     }
 
     #contact-content {
