@@ -267,8 +267,15 @@
 
     }
 
+    #services-content {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
     #contact-content section span {
         font-size: 1.3rem;
         margin: 0;
+        column-gap: 1rem;
+
     }
 }
