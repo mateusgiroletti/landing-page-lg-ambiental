@@ -188,8 +188,12 @@
 }
 
 @media screen and (max-width: 480px) {
+    #presentation {
+        height: 60vh;
+    }
+
     #presentation-title h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     #about-us article img {
@@ -207,15 +211,32 @@
     }
 
     #about-us-content p {
-        line-height: 1.5;
-        text-align: justify;
+        line-height: 1.2;
+        text-align: left;
         font-size: 1.3rem;
     }
-    
+
+    #mission-content article img {
+        margin: 0;
+        height: 300px;
+        width: 300px;
+    }
+
+    #mission-content article p {
+        font-size: 1.3rem;
+        line-height: 1.2;
+        text-align: le;
+        max-width: 25rem;
+    }
+
     #services-content {
         display: flex;
         flex-direction: column;
     }
 
-   
+
+    #contact-content section span {
+        font-size: 1.3rem;
+        margin: 0;
+    }
 }
