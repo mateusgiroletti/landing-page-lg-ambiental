@@ -130,6 +130,7 @@
     }
 
     #about-us {
+        height: auto;
         flex-direction: column;
     }
 
