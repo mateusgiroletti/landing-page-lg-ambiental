@@ -128,6 +128,8 @@ button {
     justify-content: center;
     z-index: 100;
     background-color: #CFE4C3;
+    transition: transform 0.5s ease;
+
 }
 
 #main-header .main-menu {
